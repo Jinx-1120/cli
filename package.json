@@ -1,0 +1,31 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "project cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "scion": "bin/scion"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinhaidi1/cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "jhd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jinhaidi1/cli/issues"
+  },
+  "homepage": "https://github.com/jinhaidi1/cli#readme"
+}
